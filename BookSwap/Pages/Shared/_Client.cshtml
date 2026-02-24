@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - BookNest - Where Books Find New Homes</title>
+    <meta name="description" content="Connect with book lovers in your community. Swap, trade, or borrow pre-loved books and discover new reads.">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="~/client/css/styles.css" rel="stylesheet" />
+    @RenderSection("CssContent", false)
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky top-0 z-50 glass-effect border-b border-border">
+        <div class="container flex items-center justify-between h-16">
+            <a asp-page ="/Client/Index" class="flex items-center gap-2">
+                <div class="w-10 h-10 hero-gradient rounded-xl flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                </div>
+                <span class="font-serif text-xl font-bold text-foreground">BookNest</span>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-6">
+                <a asp-page ="/Client/Browse"class="nav-link">Browse</a>
+                <a asp-page ="/Client/AboutPage" class="nav-link">About</a>
+                <a asp-page="/Client/Faq" class="nav-link">FAQ</a>
+                <a asp-page="/Client/Contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a asp-page="/Client/Login" class="btn btn-ghost">Log In</a>
+                <a asp-page="/Client/Register" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <!-- Footer -->
+    <footer class="bg-card border-t border-border py-12">
+        <div class="container">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <a asp-page="/Client/Index" class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 hero-gradient rounded-xl flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                        </div>
+                        <span class="font-serif text-xl font-bold">BookNest</span>
+                    </a>
+                    <p class="text-sm text-muted-foreground">
+                        Connecting book lovers across India to share, swap, and discover amazing reads.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a asp-page ="/Client/Browse" class="footer-link text-sm">Browse Books</a></li>
+                        <li><a asp-page ="AboutPage" class="footer-link text-sm">About Us</a></li>
+                        <li><a asp-page ="Faq" class="footer-link text-sm">FAQ</a></li>
+                        <li><a asp-page ="Contact" class="footer-link text-sm">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a asp-page="/Client/Terms" class="footer-link text-sm">Terms of Service</a></li>
+                        <li><a asp-page="/Client/Privacy" class="footer-link text-sm">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Get Started</h4>
+                    <ul class="space-y-2">
+                        <li><a asp-page="/Client/Login" class="footer-link text-sm">Log In</a></li>
+                        <li><a asp-page="/Client/Register.html" class="footer-link text-sm">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-border pt-8 text-center text-sm text-muted-foreground">
+                <p>&copy; 2024 BookNest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/client/js/script.js"></script>
+    @RenderSection("JavaScriptContent", false)
+
+</body>
+</html>

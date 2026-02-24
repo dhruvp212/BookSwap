@@ -1,0 +1,185 @@
+﻿@page
+@model BookSwap.Pages.Client.BrowseModel
+@{
+    Layout = "_Client";
+}
+<main class="flex-1">
+    <!-- Search Header -->
+    <section class="bg-muted/50 py-8">
+        <div class="container">
+            <h1 class="font-serif text-3xl font-bold text-foreground mb-6">Browse Books</h1>
+
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-1 relative">
+                    <input type="text" id="search-input" class="input pl-10 pr-4" placeholder="Search by title, author, or ISBN...">
+                    <svg class="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+
+                <select class="input w-full md:w-48">
+                    <option value="">All Categories</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="academic">Academic</option>
+                    <option value="children">Children</option>
+                </select>
+
+                <select class="input w-full md:w-48">
+                    <option value="">All Conditions</option>
+                    <option value="new">New</option>
+                    <option value="like-new">Like New</option>
+                    <option value="good">Good</option>
+                    <option value="fair">Fair</option>
+                </select>
+
+                <button id="search-btn" class="btn btn-primary">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    Search
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Grid -->
+    <section class="py-12">
+        <div class="container">
+            <div class="flex items-center justify-between mb-6">
+                <p class="text-muted-foreground">Showing 1-12 of 156 books</p>
+                <select class="input w-48">
+                    <option>Newest First</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Most Popular</option>
+                </select>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-purple-200 to-purple-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop" alt="The Great Gatsby" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">The Great Gatsby</h3>
+                        <p class="text-sm text-muted-foreground mb-2">F. Scott Fitzgerald</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">Like New</span>
+                            <span class="text-sm font-semibold text-primary">₹150</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-blue-200 to-blue-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&h=400&fit=crop" alt="To Kill a Mockingbird" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">To Kill a Mockingbird</h3>
+                        <p class="text-sm text-muted-foreground mb-2">Harper Lee</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">Good</span>
+                            <span class="text-sm font-semibold text-primary">₹120</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-green-200 to-green-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=400&fit=crop" alt="1984" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">1984</h3>
+                        <p class="text-sm text-muted-foreground mb-2">George Orwell</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">New</span>
+                            <span class="text-sm font-semibold text-primary">₹180</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-orange-200 to-orange-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop" alt="Pride and Prejudice" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">Pride and Prejudice</h3>
+                        <p class="text-sm text-muted-foreground mb-2">Jane Austen</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">Fair</span>
+                            <span class="text-sm font-semibold text-primary">₹100</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-red-200 to-red-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=300&h=400&fit=crop" alt="The Catcher in the Rye" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">The Catcher in the Rye</h3>
+                        <p class="text-sm text-muted-foreground mb-2">J.D. Salinger</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">Like New</span>
+                            <span class="text-sm font-semibold text-primary">₹140</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-indigo-200 to-indigo-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=300&h=400&fit=crop" alt="Brave New World" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">Brave New World</h3>
+                        <p class="text-sm text-muted-foreground mb-2">Aldous Huxley</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">Good</span>
+                            <span class="text-sm font-semibold text-primary">₹160</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-pink-200 to-pink-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1495640388908-05fa85288e61?w=300&h=400&fit=crop" alt="The Alchemist" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">The Alchemist</h3>
+                        <p class="text-sm text-muted-foreground mb-2">Paulo Coelho</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">New</span>
+                            <span class="text-sm font-semibold text-primary">₹200</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a asp-page="/Cilent/BookDetail" class="book-card card-elevated">
+                    <div class="aspect-[3/4] bg-gradient-to-br from-teal-200 to-teal-300 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=300&h=400&fit=crop" alt="Animal Farm" class="book-image w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-serif font-semibold text-foreground mb-1 truncate">Animal Farm</h3>
+                        <p class="text-sm text-muted-foreground mb-2">George Orwell</p>
+                        <div class="flex items-center justify-between">
+                            <span class="badge badge-secondary text-xs">Fair</span>
+                            <span class="text-sm font-semibold text-primary">₹90</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Pagination -->
+            <div class="flex items-center justify-center gap-2 mt-12">
+                <button class="btn btn-outline" disabled>Previous</button>
+                <button class="btn btn-primary">1</button>
+                <button class="btn btn-outline">2</button>
+                <button class="btn btn-outline">3</button>
+                <span class="px-2">...</span>
+                <button class="btn btn-outline">13</button>
+                <button class="btn btn-outline">Next</button>
+            </div>
+        </div>
+    </section>
+</main>

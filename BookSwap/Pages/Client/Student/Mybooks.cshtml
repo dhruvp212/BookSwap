@@ -1,0 +1,106 @@
+﻿@page
+@model BookSwap.Pages.Client.Student.MybooksModel
+@{
+    Layout = "_Student";
+}
+<!-- Main Content -->
+<div class="flex-1 flex flex-col lg:ml-0">
+    <header class="h-14 flex items-center gap-4 border-b border-border px-4 bg-background sticky top-0 z-10">
+        <button id="sidebar-toggle" class="lg:hidden p-2 rounded-md hover:bg-muted">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <h1 class="font-serif text-lg font-semibold">Student Portal</h1>
+    </header>
+
+    <main class="p-6 flex-1">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="font-serif text-2xl font-bold text-foreground">My Books</h2>
+            <a href="add-book.html" class="btn btn-primary">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                </svg>
+                Add Book
+            </a>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-purple-200 to-purple-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop" alt="The Great Gatsby" class="book-image w-full h-full object-cover">
+                    <span class="absolute top-2 right-2 badge badge-primary text-xs">Active</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">The Great Gatsby</h3>
+                    <p class="text-sm text-muted-foreground mb-2">F. Scott Fitzgerald</p>
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="badge badge-secondary text-xs">Like New</span>
+                        <span class="text-sm font-semibold text-primary">₹150</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="btn btn-outline btn-sm flex-1">Edit</button>
+                        <button class="btn btn-ghost btn-sm text-destructive">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-blue-200 to-blue-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&h=400&fit=crop" alt="To Kill a Mockingbird" class="book-image w-full h-full object-cover">
+                    <span class="absolute top-2 right-2 badge badge-primary text-xs">Active</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">To Kill a Mockingbird</h3>
+                    <p class="text-sm text-muted-foreground mb-2">Harper Lee</p>
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="badge badge-secondary text-xs">Good</span>
+                        <span class="text-sm font-semibold text-primary">₹120</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="btn btn-outline btn-sm flex-1">Edit</button>
+                        <button class="btn btn-ghost btn-sm text-destructive">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-green-200 to-green-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=400&fit=crop" alt="1984" class="book-image w-full h-full object-cover">
+                    <span class="absolute top-2 right-2 badge bg-muted text-muted-foreground text-xs">Swapped</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">1984</h3>
+                    <p class="text-sm text-muted-foreground mb-2">George Orwell</p>
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="badge badge-secondary text-xs">New</span>
+                        <span class="text-sm font-semibold text-primary">Swap Only</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="btn btn-outline btn-sm flex-1" disabled>Edit</button>
+                        <button class="btn btn-ghost btn-sm" disabled>Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-orange-200 to-orange-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop" alt="Pride and Prejudice" class="book-image w-full h-full object-cover">
+                    <span class="absolute top-2 right-2 badge badge-primary text-xs">Active</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">Pride and Prejudice</h3>
+                    <p class="text-sm text-muted-foreground mb-2">Jane Austen</p>
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="badge badge-secondary text-xs">Fair</span>
+                        <span class="text-sm font-semibold text-primary">₹100</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="btn btn-outline btn-sm flex-1">Edit</button>
+                        <button class="btn btn-ghost btn-sm text-destructive">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

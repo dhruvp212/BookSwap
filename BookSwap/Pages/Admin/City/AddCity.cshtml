@@ -1,0 +1,49 @@
+﻿@page
+@model BookSwap.Pages.Admin.City.AddCityModel
+@{
+    Layout = "_Admin";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="fw-bold">City Form</h4>
+        <a href="/Admin/City/City" class="btn btn-primary">Back</a>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h4>City Form</h4>
+        </div>
+
+        <div class="card-body">
+            <form enctype="multipart/form-data">
+
+                <!-- Category Name -->
+                <div class="mb-3">
+                    <label class="form-label">City Name</label>
+                    <input type="text" class="form-control" placeholder="Enter City name">
+                </div>
+
+                <!-- Status -->
+                <div class="mb-3">
+                    <label class="form-label">Status</label>
+                    <select class="form-control">
+                        <option>--- Select ---</option>
+                        <option>Active</option>
+                        <option>Deactive</option>
+                    </select>
+                </div>
+
+                <!-- Buttons -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fa-regular fa-floppy-disk"></i> Save
+                    </button>
+                    <button type="reset" class="btn btn-danger">Cancel</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+

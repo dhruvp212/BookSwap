@@ -1,0 +1,95 @@
+﻿@page
+@model BookSwap.Pages.Client.Student.ProfileModel
+@{
+    Layout = "_Student";
+}
+
+<!-- Main Content -->
+<div class="flex-1 flex flex-col lg:ml-0">
+    <header class="h-14 flex items-center gap-4 border-b border-border px-4 bg-background sticky top-0 z-10">
+        <button id="sidebar-toggle" class="lg:hidden p-2 rounded-md hover:bg-muted">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <h1 class="font-serif text-lg font-semibold">Student Portal</h1>
+    </header>
+
+    <main class="p-6 flex-1">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="font-serif text-2xl font-bold text-foreground mb-6">My Profile</h2>
+
+            <div class="card card-elevated p-6 mb-6">
+                <div class="flex items-center gap-6 mb-6">
+                    <div class="w-24 h-24 rounded-full hero-gradient flex items-center justify-center text-white text-3xl font-bold">
+                        SK
+                    </div>
+                    <div>
+                        <h3 class="font-serif text-xl font-semibold">Student Kumar</h3>
+                        <p class="text-muted-foreground">student@example.com</p>
+                        <p class="text-sm text-muted-foreground mt-1">Member since January 2024</p>
+                    </div>
+                </div>
+
+                <form data-validate class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="firstName" class="block text-sm font-medium mb-2">First Name</label>
+                            <input type="text" id="firstName" class="input" value="Student">
+                        </div>
+                        <div>
+                            <label for="lastName" class="block text-sm font-medium mb-2">Last Name</label>
+                            <input type="text" id="lastName" class="input" value="Kumar">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                        <input type="email" id="email" class="input" value="student@example.com">
+                    </div>
+
+                    <div>
+                        <label for="phone" class="block text-sm font-medium mb-2">Phone</label>
+                        <input type="tel" id="phone" class="input" value="+91 98765 43210">
+                    </div>
+
+                    <div>
+                        <label for="location" class="block text-sm font-medium mb-2">Location</label>
+                        <input type="text" id="location" class="input" value="Mumbai, Maharashtra">
+                    </div>
+
+                    <div>
+                        <label for="bio" class="block text-sm font-medium mb-2">Bio</label>
+                        <textarea id="bio" rows="3" class="input resize-none">Avid reader and book collector. Love classic literature and sci-fi!</textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Save Changes
+                    </button>
+                </form>
+            </div>
+
+            <div class="card card-elevated p-6">
+                <h3 class="font-serif text-lg font-semibold mb-4">Change Password</h3>
+                <form data-validate class="space-y-4">
+                    <div>
+                        <label for="currentPassword" class="block text-sm font-medium mb-2">Current Password</label>
+                        <input type="password" id="currentPassword" class="input" placeholder="••••••••">
+                    </div>
+                    <div>
+                        <label for="newPassword" class="block text-sm font-medium mb-2">New Password</label>
+                        <input type="password" id="newPassword" class="input" placeholder="••••••••">
+                    </div>
+                    <div>
+                        <label for="confirmPassword" class="block text-sm font-medium mb-2">Confirm New Password</label>
+                        <input type="password" id="confirmPassword" class="input" placeholder="••••••••">
+                    </div>
+                    <button type="submit" class="btn btn-outline">
+                        Update Password
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+</div>
+

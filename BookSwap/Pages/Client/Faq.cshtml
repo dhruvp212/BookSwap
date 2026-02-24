@@ -1,0 +1,122 @@
+﻿@page
+@model BookSwap.Pages.Client.FaqModel
+@{
+    Layout = "_Client";
+}
+
+<main class="flex-1">
+    <!-- Hero -->
+    <section class="bg-muted/50 py-16">
+        <div class="container text-center">
+            <h1 class="font-serif text-4xl font-bold text-foreground mb-4">
+                Frequently Asked Questions
+            </h1>
+            <p class="text-muted-foreground max-w-xl mx-auto">
+                Everything you need to know about BookNest. Can't find an answer? Contact our support team.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ List -->
+    <section class="py-16">
+        <div class="container max-w-3xl">
+            <div class="space-y-4">
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>How does BookNest work?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        Simply create an account, list the books you want to swap or sell, and browse other listings. When you find a book you like, chat directly with the owner to arrange a swap or purchase. Meet up locally or arrange shipping - it's that easy!
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>Is it free to use BookNest?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        Yes! Creating an account and listing books is completely free. We believe in making books accessible to everyone. You only pay when you purchase a book from another user or agree on shipping costs.
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>How do I list a book?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        After logging in, click 'Add Book' in the navigation. Fill in the book details including title, author, condition, and upload a photo. You can choose to sell at a price or offer it for swap only.
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>What condition should my books be in?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        We accept books in all readable conditions! Just be honest about the condition - whether it's 'New', 'Like New', 'Good', or 'Fair'. Accurate descriptions help build trust in the community.
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>How do I arrange a swap?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        Use the built-in chat feature to message the book owner. Discuss whether you want to swap, buy, or negotiate. For local swaps, arrange a safe public meeting place. For distant swaps, agree on shipping arrangements.
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>Is my personal information safe?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        We take privacy seriously. Your personal details are never shared publicly. When you're ready to meet or ship, you can share contact details directly through our secure chat feature.
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>What if there's a problem with a swap?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        We encourage users to communicate clearly before finalizing any swap. If issues arise, you can report the problem through our support system, and we'll help mediate.
+                    </div>
+                </div>
+
+                <div class="card card-elevated rounded-xl overflow-hidden">
+                    <button class="accordion-trigger w-full px-6 text-left">
+                        <span>Can I delete my account?</span>
+                        <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="accordion-content hidden px-6">
+                        Yes, you can delete your account at any time from your profile settings. All your listings and data will be permanently removed.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

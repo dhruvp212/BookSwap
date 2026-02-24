@@ -1,0 +1,81 @@
+﻿@page
+@model BookSwap.Pages.Client.Student.ReturnModel
+@{
+    Layout = "_Student";
+}
+
+<!-- Main Content -->
+<div class="flex-1 flex flex-col lg:ml-0">
+    <header class="h-14 flex items-center gap-4 border-b border-border px-4 bg-background sticky top-0 z-10">
+        <button id="sidebar-toggle" class="lg:hidden p-2 rounded-md hover:bg-muted">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <h1 class="font-serif text-lg font-semibold">Student Portal</h1>
+    </header>
+
+    <main class="p-6 flex-1">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="font-serif text-2xl font-bold text-foreground mb-6">Return Book</h2>
+
+            <div class="card card-elevated p-6">
+                <p class="text-muted-foreground mb-6">Select the book you want to return and confirm the return details.</p>
+
+                <form data-validate class="space-y-6">
+                    <div>
+                        <label for="book" class="block text-sm font-medium mb-2">Select Book to Return *</label>
+                        <select id="book" required class="input">
+                            <option value="">Choose a borrowed book</option>
+                            <option value="1">Pride and Prejudice (Overdue - 2 days)</option>
+                            <option value="2">To Kill a Mockingbird (Due in 3 days)</option>
+                            <option value="3">The Great Gatsby (Due in 12 days)</option>
+                            <option value="4">1984 (Due in 20 days)</option>
+                        </select>
+                    </div>
+
+                    <div class="card bg-muted/50 p-4">
+                        <h3 class="font-semibold mb-2">Selected: Pride and Prejudice</h3>
+                        <div class="text-sm text-muted-foreground space-y-1">
+                            <p>Borrowed from: <span class="text-foreground">Priya Mehta</span></p>
+                            <p>Borrowed on: Jan 10, 2024</p>
+                            <p class="text-destructive font-medium">Status: Overdue by 2 days</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="condition" class="block text-sm font-medium mb-2">Book Condition on Return *</label>
+                        <select id="condition" required class="input">
+                            <option value="">Select current condition</option>
+                            <option value="same">Same as received</option>
+                            <option value="good">Good - Minor wear</option>
+                            <option value="fair">Fair - Some damage</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="notes" class="block text-sm font-medium mb-2">Notes (Optional)</label>
+                        <textarea id="notes" rows="3" class="input resize-none" placeholder="Any notes for the owner..."></textarea>
+                    </div>
+
+                    <div class="border-t border-border pt-4">
+                        <div class="flex items-center gap-3 mb-4">
+                            <input type="checkbox" id="confirm" required class="rounded border-input">
+                            <label for="confirm" class="text-sm">I confirm that I am returning this book and have contacted the owner to arrange the return.</label>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <button type="submit" class="btn btn-primary flex-1">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Confirm Return
+                        </button>
+                        <a href="borrowed.html" class="btn btn-outline">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</div>

@@ -1,0 +1,111 @@
+﻿@page
+@model BookSwap.Pages.Client.Student.AddbookModel
+@{
+    Layout = "_Student";
+}
+
+<!-- Main Content -->
+<div class="flex-1 flex flex-col lg:ml-0">
+    <header class="h-14 flex items-center gap-4 border-b border-border px-4 bg-background sticky top-0 z-10">
+        <button id="sidebar-toggle" class="lg:hidden p-2 rounded-md hover:bg-muted">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <h1 class="font-serif text-lg font-semibold">Student Portal</h1>
+    </header>
+
+    <main class="p-6 flex-1">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="font-serif text-2xl font-bold text-foreground mb-6">Add New Book</h2>
+
+            <div class="card card-elevated p-6">
+                <form data-validate class="space-y-6">
+                    <div class="border-2 border-dashed border-border rounded-xl p-8 text-center">
+                        <div class="w-16 h-16 rounded-full bg-muted flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <p class="text-muted-foreground mb-2">Drag and drop your book photo here, or</p>
+                        <button type="button" class="btn btn-outline">Choose File</button>
+                    </div>
+
+                    <div>
+                        <label for="title" class="block text-sm font-medium mb-2">Book Title *</label>
+                        <input type="text" id="title" required class="input" placeholder="Enter book title">
+                    </div>
+
+                    <div>
+                        <label for="author" class="block text-sm font-medium mb-2">Author *</label>
+                        <input type="text" id="author" required class="input" placeholder="Enter author name">
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="isbn" class="block text-sm font-medium mb-2">ISBN</label>
+                            <input type="text" id="isbn" class="input" placeholder="978-0-00-000000-0">
+                        </div>
+                        <div>
+                            <label for="pages" class="block text-sm font-medium mb-2">Pages</label>
+                            <input type="number" id="pages" class="input" placeholder="200">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="category" class="block text-sm font-medium mb-2">Category *</label>
+                            <select id="category" required class="input">
+                                <option value="">Select category</option>
+                                <option value="fiction">Fiction</option>
+                                <option value="non-fiction">Non-Fiction</option>
+                                <option value="academic">Academic</option>
+                                <option value="children">Children</option>
+                                <option value="mystery">Mystery</option>
+                                <option value="sci-fi">Science Fiction</option>
+                                <option value="romance">Romance</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="condition" class="block text-sm font-medium mb-2">Condition *</label>
+                            <select id="condition" required class="input">
+                                <option value="">Select condition</option>
+                                <option value="new">New</option>
+                                <option value="like-new">Like New</option>
+                                <option value="good">Good</option>
+                                <option value="fair">Fair</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="price" class="block text-sm font-medium mb-2">Price (₹)</label>
+                        <input type="number" id="price" class="input" placeholder="Leave empty for swap only">
+                    </div>
+
+                    <div>
+                        <label for="description" class="block text-sm font-medium mb-2">Description</label>
+                        <textarea id="description" rows="4" class="input resize-none" placeholder="Add any additional details about the book..."></textarea>
+                    </div>
+
+                    <div>
+                        <label class="flex items-center gap-2">
+                            <input type="checkbox" class="rounded border-input">
+                            <span class="text-sm">Available for swap only (no selling)</span>
+                        </label>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <button type="submit" class="btn btn-primary flex-1">
+                            Add Book
+                        </button>
+                        <button type="button" class="btn btn-outline">
+                            Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</div>
+

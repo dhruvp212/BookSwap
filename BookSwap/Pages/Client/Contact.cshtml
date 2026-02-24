@@ -1,0 +1,104 @@
+﻿@page
+@model BookSwap.Pages.Client.ContactModel
+@{
+    Layout = "_Client";
+}
+
+<main class="flex-1 py-16">
+    <div class="container">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h1 class="font-serif text-4xl font-bold text-foreground mb-4">Get in Touch</h1>
+                <p class="text-muted-foreground max-w-xl mx-auto">
+                    Have a question, suggestion, or just want to say hello? We'd love to hear from you!
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="card card-elevated p-8">
+                    <h2 class="font-serif text-2xl font-bold mb-6">Send a Message</h2>
+                    <form data-validate class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium mb-2">Name</label>
+                            <input type="text" id="name" name="name" required class="input" placeholder="Your name">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" id="email" name="email" required class="input" placeholder="you@example.com">
+                        </div>
+
+                        <div>
+                            <label for="subject" class="block text-sm font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" required class="input" placeholder="How can we help?">
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" required class="input resize-none" placeholder="Your message..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-8">
+                    <div>
+                        <h2 class="font-serif text-2xl font-bold mb-6">Contact Information</h2>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-lg hero-gradient flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium">Email</p>
+                                    <a href="mailto:hello@booknest.in" class="text-muted-foreground footer-link">hello@booknest.in</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-lg hero-gradient flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium">Location</p>
+                                    <p class="text-muted-foreground">Mumbai, Maharashtra, India</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-lg hero-gradient flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium">Response Time</p>
+                                    <p class="text-muted-foreground">Within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-6">
+                        <h3 class="font-semibold mb-3">Quick Links</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a asp-page="/Cilent/Faq" class="footer-link">Check our FAQ for common questions</a></li>
+                            <li><a asp-page="/Cilent/AboutPage" class="footer-link">Learn more about BookNest</a></li>
+                            <li><a asp-page="/Cilent/Terms" class="footer-link">Read our Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,119 @@
+﻿@page
+@model BookSwap.Pages.Client.Student.BorrowedModel
+@{
+    Layout = "_Student";
+}
+
+<!-- Main Content -->
+<div class="flex-1 flex flex-col lg:ml-0">
+    <header class="h-14 flex items-center gap-4 border-b border-border px-4 bg-background sticky top-0 z-10">
+        <button id="sidebar-toggle" class="lg:hidden p-2 rounded-md hover:bg-muted">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <h1 class="font-serif text-lg font-semibold">Student Portal</h1>
+    </header>
+
+    <main class="p-6 flex-1">
+        <h2 class="font-serif text-2xl font-bold text-foreground mb-6">Borrowed Books</h2>
+
+        <div class="space-y-4">
+            <!-- Overdue Book -->
+            <div class="card card-elevated p-4 border-l-4 border-destructive">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="w-16 h-24 bg-gradient-to-br from-red-200 to-red-300 rounded-lg flex-shrink-0"></div>
+                    <div class="flex-1">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="font-serif font-semibold text-foreground">Pride and Prejudice</h3>
+                                <p class="text-sm text-muted-foreground">Jane Austen</p>
+                            </div>
+                            <span class="badge bg-destructive text-destructive-foreground text-xs">Overdue</span>
+                        </div>
+                        <div class="mt-2 text-sm">
+                            <p class="text-muted-foreground">Borrowed from: <span class="text-foreground">Priya M.</span></p>
+                            <p class="text-destructive font-medium">Overdue by 2 days</p>
+                        </div>
+                        <div class="mt-3 flex gap-2">
+                            <a href="return.html" class="btn btn-primary btn-sm">Return Now</a>
+                            <button class="btn btn-outline btn-sm">Contact Owner</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Due Soon Book -->
+            <div class="card card-elevated p-4 border-l-4 border-yellow-500">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="w-16 h-24 bg-gradient-to-br from-green-200 to-green-300 rounded-lg flex-shrink-0"></div>
+                    <div class="flex-1">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="font-serif font-semibold text-foreground">To Kill a Mockingbird</h3>
+                                <p class="text-sm text-muted-foreground">Harper Lee</p>
+                            </div>
+                            <span class="badge bg-yellow-500 text-white text-xs">Due Soon</span>
+                        </div>
+                        <div class="mt-2 text-sm">
+                            <p class="text-muted-foreground">Borrowed from: <span class="text-foreground">Rahul K.</span></p>
+                            <p class="text-yellow-600 font-medium">Due in 3 days</p>
+                        </div>
+                        <div class="mt-3 flex gap-2">
+                            <a href="return.html" class="btn btn-outline btn-sm">Return</a>
+                            <button class="btn btn-ghost btn-sm">Extend</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Normal Book -->
+            <div class="card card-elevated p-4">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="w-16 h-24 bg-gradient-to-br from-purple-200 to-purple-300 rounded-lg flex-shrink-0"></div>
+                    <div class="flex-1">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="font-serif font-semibold text-foreground">The Great Gatsby</h3>
+                                <p class="text-sm text-muted-foreground">F. Scott Fitzgerald</p>
+                            </div>
+                            <span class="badge badge-secondary text-xs">Active</span>
+                        </div>
+                        <div class="mt-2 text-sm">
+                            <p class="text-muted-foreground">Borrowed from: <span class="text-foreground">Amit S.</span></p>
+                            <p class="text-muted-foreground">Due in 12 days</p>
+                        </div>
+                        <div class="mt-3 flex gap-2">
+                            <a href="return.html" class="btn btn-outline btn-sm">Return</a>
+                            <button class="btn btn-ghost btn-sm">Contact Owner</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-elevated p-4">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="w-16 h-24 bg-gradient-to-br from-blue-200 to-blue-300 rounded-lg flex-shrink-0"></div>
+                    <div class="flex-1">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="font-serif font-semibold text-foreground">1984</h3>
+                                <p class="text-sm text-muted-foreground">George Orwell</p>
+                            </div>
+                            <span class="badge badge-secondary text-xs">Active</span>
+                        </div>
+                        <div class="mt-2 text-sm">
+                            <p class="text-muted-foreground">Borrowed from: <span class="text-foreground">Neha P.</span></p>
+                            <p class="text-muted-foreground">Due in 20 days</p>
+                        </div>
+                        <div class="mt-3 flex gap-2">
+                            <a href="return.html" class="btn btn-outline btn-sm">Return</a>
+                            <button class="btn btn-ghost btn-sm">Contact Owner</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+

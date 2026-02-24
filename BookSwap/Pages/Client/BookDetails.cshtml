@@ -1,0 +1,102 @@
+﻿@page
+@model BookSwap.Pages.Client.BookDetailsModel
+@{
+    Layout = "_Client";
+}
+
+<main class="flex-1 py-8">
+    <div class="container">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-sm text-muted-foreground mb-6">
+            <a asp-page="/Cilent/Index" class="footer-link">Home</a>
+            <span>/</span>
+            <a asp-page="/Cilent/BookDetailBrowse" class="footer-link">Browse</a>
+            <span>/</span>
+            <span class="text-foreground">The Great Gatsby</span>
+        </nav>
+
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+            <!-- Book Image -->
+            <div class="space-y-4">
+                <div class="aspect-[3/4] bg-gradient-to-br from-purple-200 to-purple-300 rounded-2xl overflow-hidden card-elevated">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=800&fit=crop" alt="The Great Gatsby" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <!-- Book Details -->
+            <div class="space-y-6">
+                <div>
+                    <span class="badge badge-primary mb-3">Available for Swap</span>
+                    <h1 class="font-serif text-3xl md:text-4xl font-bold text-foreground mb-2">The Great Gatsby</h1>
+                    <p class="text-xl text-muted-foreground">by F. Scott Fitzgerald</p>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <span class="badge badge-secondary">Like New</span>
+                    <span class="text-2xl font-bold text-primary">₹150</span>
+                </div>
+
+                <div class="prose prose-sm text-muted-foreground">
+                    <p>
+                        The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald.
+                        Set in the Jazz Age on Long Island, near New York City, the novel depicts
+                        first-person narrator Nick Carraway's interactions with mysterious millionaire
+                        Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 py-4 border-y border-border">
+                    <div>
+                        <p class="text-sm text-muted-foreground">Category</p>
+                        <p class="font-medium">Fiction / Classic</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-muted-foreground">ISBN</p>
+                        <p class="font-medium">978-0743273565</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-muted-foreground">Pages</p>
+                        <p class="font-medium">180</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-muted-foreground">Language</p>
+                        <p class="font-medium">English</p>
+                    </div>
+                </div>
+
+                <!-- Owner Info -->
+                <div class="card p-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full hero-gradient flex items-center justify-center text-white font-bold">
+                            RK
+                        </div>
+                        <div class="flex-1">
+                            <p class="font-semibold">Rahul Kumar</p>
+                            <p class="text-sm text-muted-foreground">Mumbai, Maharashtra</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-muted-foreground">Member since</p>
+                            <p class="font-medium">Jan 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a asp-page="/Cilent/Login" class="btn btn-primary btn-lg flex-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                        </svg>
+                        Request Swap
+                    </a>
+                    <button class="btn btn-outline btn-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                        Save
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

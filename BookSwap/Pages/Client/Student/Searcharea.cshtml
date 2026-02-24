@@ -1,0 +1,113 @@
+﻿@page
+@model BookSwap.Pages.Client.Student.SearchareaModel
+@{
+    Layout = "_Student";
+}
+
+<!-- Main Content -->
+<div class="flex-1 flex flex-col lg:ml-0">
+    <header class="h-14 flex items-center gap-4 border-b border-border px-4 bg-background sticky top-0 z-10">
+        <button id="sidebar-toggle" class="lg:hidden p-2 rounded-md hover:bg-muted">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <h1 class="font-serif text-lg font-semibold">Student Portal</h1>
+    </header>
+
+    <main class="p-6 flex-1">
+        <h2 class="font-serif text-2xl font-bold text-foreground mb-6">Search by Area</h2>
+
+        <div class="card card-elevated p-6 mb-6">
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-1">
+                    <label for="location" class="block text-sm font-medium mb-2">Location / Pincode</label>
+                    <input type="text" id="location" class="input" placeholder="Enter city, area, or pincode">
+                </div>
+                <div class="w-full md:w-48">
+                    <label for="radius" class="block text-sm font-medium mb-2">Distance</label>
+                    <select id="radius" class="input">
+                        <option value="5">Within 5 km</option>
+                        <option value="10">Within 10 km</option>
+                        <option value="25">Within 25 km</option>
+                        <option value="50">Within 50 km</option>
+                    </select>
+                </div>
+                <div class="flex items-end">
+                    <button class="btn btn-primary btn-lg w-full md:w-auto">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        Search
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-4 flex items-center justify-between">
+            <p class="text-muted-foreground">Showing 8 books near Mumbai, Maharashtra</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <a href="../book-detail.html" class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-purple-200 to-purple-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop" alt="The Great Gatsby" class="book-image w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">The Great Gatsby</h3>
+                    <p class="text-sm text-muted-foreground mb-1">F. Scott Fitzgerald</p>
+                    <p class="text-xs text-hover mb-2">📍 2.5 km away • Andheri</p>
+                    <div class="flex items-center justify-between">
+                        <span class="badge badge-secondary text-xs">Like New</span>
+                        <span class="text-sm font-semibold text-primary">₹150</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="../book-detail.html" class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-blue-200 to-blue-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&h=400&fit=crop" alt="To Kill a Mockingbird" class="book-image w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">To Kill a Mockingbird</h3>
+                    <p class="text-sm text-muted-foreground mb-1">Harper Lee</p>
+                    <p class="text-xs text-hover mb-2">📍 3.8 km away • Bandra</p>
+                    <div class="flex items-center justify-between">
+                        <span class="badge badge-secondary text-xs">Good</span>
+                        <span class="text-sm font-semibold text-primary">₹120</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="../book-detail.html" class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-green-200 to-green-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=400&fit=crop" alt="1984" class="book-image w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">1984</h3>
+                    <p class="text-sm text-muted-foreground mb-1">George Orwell</p>
+                    <p class="text-xs text-hover mb-2">📍 1.2 km away • Juhu</p>
+                    <div class="flex items-center justify-between">
+                        <span class="badge badge-secondary text-xs">New</span>
+                        <span class="text-sm font-semibold text-primary">₹180</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="../book-detail.html" class="book-card card-elevated">
+                <div class="aspect-[3/4] bg-gradient-to-br from-orange-200 to-orange-300 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop" alt="Pride and Prejudice" class="book-image w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-serif font-semibold text-foreground mb-1 truncate">Pride and Prejudice</h3>
+                    <p class="text-sm text-muted-foreground mb-1">Jane Austen</p>
+                    <p class="text-xs text-hover mb-2">📍 4.5 km away • Santacruz</p>
+                    <div class="flex items-center justify-between">
+                        <span class="badge badge-secondary text-xs">Fair</span>
+                        <span class="text-sm font-semibold text-primary">₹100</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+</div>

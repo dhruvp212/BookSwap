@@ -1,0 +1,90 @@
+﻿@page
+@model BookSwap.Pages.Client.AboutPageModel
+@{
+    Layout = "_Client";
+}
+<main class="flex-1">
+    <!-- Hero -->
+    <section class="hero-gradient py-20">
+        <div class="container text-center">
+            <h1 class="font-serif text-4xl md:text-5xl font-bold text-white mb-4 animate-slide-up">
+                About BookNest
+            </h1>
+            <p class="text-xl text-white/80 max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.1s">
+                Connecting book lovers across India to share, swap, and discover amazing reads.
+            </p>
+        </div>
+    </section>
+
+    <!-- Story -->
+    <section class="py-20">
+        <div class="container">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="font-serif text-3xl font-bold text-foreground mb-6">Our Story</h2>
+                <p class="text-muted-foreground text-lg leading-relaxed mb-6">
+                    BookNest was born from a simple observation: we all have books we've loved,
+                    read, and are ready to pass on, while there are countless other books we're
+                    eager to discover. Instead of letting these treasures gather dust on shelves,
+                    why not connect readers and give every book a new adventure?
+                </p>
+                <p class="text-muted-foreground text-lg leading-relaxed">
+                    Founded in 2024, we've grown into a vibrant community of thousands of book
+                    lovers who share our passion for reading and sustainable living. Whether
+                    you're looking for rare finds, textbooks, or the latest bestsellers,
+                    BookNest is your gateway to an endless library.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="py-20 bg-muted/30">
+        <div class="container">
+            <h2 class="font-serif text-3xl font-bold text-foreground text-center mb-12">
+                What We Believe
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card card-elevated p-6 text-center animate-on-scroll">
+                    <div class="w-16 h-16 rounded-2xl hero-gradient flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl font-semibold mb-2">Love of Reading</h3>
+                    <p class="text-muted-foreground text-sm">We believe books are meant to be shared and enjoyed by as many people as possible.</p>
+                </div>
+
+                <div class="card card-elevated p-6 text-center animate-on-scroll" style="animation-delay: 0.1s">
+                    <div class="w-16 h-16 rounded-2xl hero-gradient flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl font-semibold mb-2">Community First</h3>
+                    <p class="text-muted-foreground text-sm">Building connections between book lovers in neighborhoods across India.</p>
+                </div>
+
+                <div class="card card-elevated p-6 text-center animate-on-scroll" style="animation-delay: 0.2s">
+                    <div class="w-16 h-16 rounded-2xl hero-gradient flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl font-semibold mb-2">Sustainability</h3>
+                    <p class="text-muted-foreground text-sm">Give your books a second life and reduce waste by swapping instead of buying new.</p>
+                </div>
+
+                <div class="card card-elevated p-6 text-center animate-on-scroll" style="animation-delay: 0.3s">
+                    <div class="w-16 h-16 rounded-2xl hero-gradient flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl font-semibold mb-2">Accessibility</h3>
+                    <p class="text-muted-foreground text-sm">Making great books accessible to everyone, regardless of budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,59 @@
+﻿@page
+@model BookSwap.Pages.Client.RegisterModel
+@{
+    Layout = "_Client";
+}
+
+<main class="flex-1 flex items-center justify-center py-12 px-4">
+    <div class="w-full max-w-md">
+        <div class="card card-elevated p-8">
+            <div class="text-center mb-8">
+                <h1 class="font-serif text-3xl font-bold text-foreground mb-2">Create Account</h1>
+                <p class="text-muted-foreground">Join BookNest and start swapping books</p>
+            </div>
+
+            <form data-validate class="space-y-4">
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="firstName" class="block text-sm font-medium mb-2">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required class="input" placeholder="John">
+                    </div>
+                    <div>
+                        <label for="lastName" class="block text-sm font-medium mb-2">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required class="input" placeholder="Doe">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                    <input type="email" id="email" name="email" required class="input" placeholder="you@example.com">
+                </div>
+
+                <div>
+                    <label for="password" class="block text-sm font-medium mb-2">Password</label>
+                    <input type="password" id="password" name="password" required class="input" placeholder="••••••••">
+                </div>
+
+                <div>
+                    <label for="confirmPassword" class="block text-sm font-medium mb-2">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required class="input" placeholder="••••••••">
+                </div>
+
+                <div>
+                    <label class="flex items-center gap-2 text-sm">
+                        <input type="checkbox" required class="rounded border-input">
+                        <span>I agree to the <a asp-page="/Cilent/Terms" class="text-hover hover:underline">Terms of Service</a> and <a asp-page="/Cilent/Privacy" class="text-hover hover:underline">Privacy Policy</a></span>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-full">
+                    Create Account
+                </button>
+            </form>
+
+            <div class="mt-6 text-center text-sm text-muted-foreground">
+                Already have an account? <a asp-page="/Cilent/Login" class="text-hover hover:underline font-medium">Sign in</a>
+            </div>
+        </div>
+    </div>
+</main>
