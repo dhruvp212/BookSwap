@@ -38,7 +38,7 @@
                                 <td>@row["Status"]</td>
                                 <td>@row["EntryDate"]</td>
                                 <td><a asp-page="/Admin/Education/AddEducation" asp-route-EditId="@row["EducationId"]" class="btn btn-info">Edit</a></td>
-                                <td><input onclick="return " type="submit" asp-page-handler="Delete" asp-route-DeleteId="@row["EducationId"]" value="Delete" /></td>
+                                <td><input onclick="return confirm('Are You Sure Want to delete a data')" type="submit" asp-page-handler="Delete" asp-route-DeleteId="@row["EducationId"]" value="Delete" /></td>
                             </tr>
                         }
                     }
