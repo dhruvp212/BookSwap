@@ -1,0 +1,196 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Client/cilent.master.cs" Inherits="cilent" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BookSwap - Local Book Exchange &amp; Library Network</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/SiteCss.css" rel="stylesheet" />
+    <link href="css/Menu.css" rel="stylesheet" />
+    <style>
+        /* ── Fixed/sticky navbar ── */
+        body {
+            padding-top: 66px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1030;
+            box-shadow: 0 2px 16px rgba(0,0,0,.4);
+        }
+        .navbar-brand {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: .4px;
+        }
+        .navbar-nav .nav-link {
+            font-size: 14px;
+            font-weight: 500;
+            padding: 7px 12px !important;
+            border-radius: 6px;
+            transition: background .18s;
+        }
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active-page {
+            background: rgba(255,255,255,.15);
+            color: #fff !important;
+        }
+
+        /* ── Dropdown submenu ── */
+        .nav-item { position: relative; }
+        .submenu {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            min-width: 190px;
+            background: #1a1a2e;
+            list-style: none;
+            padding: 6px 0;
+            margin: 0;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,.3);
+            display: none;
+            z-index: 9999;
+        }
+        .navbar-nav .nav-item:hover > .submenu {
+            display: block;
+        }
+        .submenu li a {
+            display: block;
+            padding: 9px 18px;
+            text-decoration: none;
+            color: #e0e0e0;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .submenu li a:hover {
+            background: #0f3460;
+            color: #fff;
+        }
+
+        /* ── Footer ── */
+        footer {
+            background: #1a1a2e;
+            color: #adb5bd;
+            padding: 32px 0 20px;
+            margin-top: 70px;
+            font-size: 14px;
+        }
+        footer .brand { color: #fff; font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+        footer a { color: #6ea8fe; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <!-- ============ NAVBAR ============ -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Brand -->
+                <a runat="server" class="navbar-brand fw-bold" href="~/Client/Home.aspx">&#128218; BookSwap</a>
+
+                <!-- Mobile toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!-- Public nav links -->
+                    <ul class="navbar-nav me-auto" id="clientMenu" runat="server">
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/Home.aspx">Home</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/Aboutpage.aspx">About</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/contactpage.aspx">Contact</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/BookCategory.aspx">Category</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/SwapBook.aspx">Library Books</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/ApprovedSwapList.aspx">Approved Swaps</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Client/MyChats.aspx">&#128172; My Chats</a></li>
+                    </ul>
+
+                    <!-- Before login -->
+                    <ul class="navbar-nav ms-2" id="BeforeLoginPanel" runat="server">
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link" href="~/Client/login.aspx">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a runat="server" class="btn btn-outline-light btn-sm ms-1" href="~/Client/StudentReg.aspx">Register</a>
+                        </li>
+                    </ul>
+
+                    <!-- After login -->
+                    <ul class="navbar-nav ms-2" id="AfterLoginPanel" runat="server" visible="false">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">
+                                &#128100;&nbsp;<label id="lblUser" runat="server" style="font-weight:700;cursor:pointer;margin:0;"></label>
+                            </a>
+                            <ul class="submenu">
+                                <% if (Session["Student"] != null) { %>
+                                <li><a runat="server" href="~/Client/StudentHome.aspx">Student Dashboard</a></li>
+                                <% } else { %>
+                                <li><a runat="server" href="~/Client/Profile.aspx">My Profile</a></li>
+                                <li><a runat="server" href="~/Client/SwapRequest.aspx">Swap Request</a></li>
+                                <li><a runat="server" href="~/Client/SwaprequestList.aspx">My Requests</a></li>
+                                <% } %>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <asp:LinkButton runat="server" ID="btnLogout"
+                                CssClass="btn btn-danger btn-sm px-3"
+                                OnClick="btnLogout_Click1">Logout</asp:LinkButton>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- ============ /NAVBAR ============ -->
+
+        <!-- Page Content -->
+        <div class="container my-5">
+            <asp:ContentPlaceHolder ID="ContentPage" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <!-- ============ FOOTER ============ -->
+        <footer id="contact">
+            <div class="container text-center">
+                <div class="brand">&#128218; BookSwap</div>
+                <p class="mb-1">&copy; 2025 BookSwap &ndash; Local Book Exchange &amp; Library Network</p>
+                <p class="mb-0">
+                    Email: <a href="mailto:info@bookswap.com">info@bookswap.com</a>
+                    &nbsp;|&nbsp; Phone: +91-9313199537
+                </p>
+            </div>
+        </footer>
+        <!-- ============ /FOOTER ============ -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Active nav-link highlighting -->
+        <script>
+            (function () {
+                var page = window.location.pathname.split('/').pop().toLowerCase();
+                document.querySelectorAll('#clientMenu .nav-link').forEach(function (a) {
+                    var href = (a.getAttribute('href') || '').toLowerCase();
+                    if (href === page || (page === '' && href === 'home.aspx')) {
+                        a.classList.add('active-page');
+                    }
+                });
+            })();
+        </script>
+
+        <asp:ContentPlaceHolder ID="Contentjavascript" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

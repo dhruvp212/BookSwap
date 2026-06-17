@@ -1,0 +1,65 @@
+﻿body {
+    .hero;
+
+{
+    background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+.feature-icon {
+    font-size: 40px;
+    color: #007bff;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+    footer a {
+        color: #ffc107;
+        text-decoration: none;
+    }
+
+
+
+.sidebar {
+    background-color: #1f262b; /* matches dark navbar */
+    min-height: 100vh;
+}
+
+    .sidebar .nav-link {
+        color: #cfd8dc;
+        font-weight: 500;
+    }
+
+        .sidebar .nav-link:hover {
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 6px;
+        }
+
+        .sidebar .nav-link.active {
+            color: #ffffff;
+            background-color: #2e7dff; /* accent color */
+            border-radius: 6px;
+        }
+
+.book-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.badge-condition {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -1,0 +1,106 @@
+<%@ Master Language="C#" MasterPageFile="~/Client/Client.master" AutoEventWireup="true" CodeFile="~/Client/Student.master.cs" Inherits="Client_Student_StudentMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="Server">
+    <style>
+        .student-wrapper { display: flex; min-height: 80vh; gap: 25px; }
+
+        /* Sidebar positioning */
+        .student-sidebar {
+            width: 280px;
+            padding: 25px 15px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .sidebar-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            padding-left: 15px;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+
+        .nav-link-student {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .nav-link-student i {
+            font-size: 1.2rem;
+            margin-right: 12px;
+            width: 24px;
+            text-align: center;
+        }
+
+        /* Glassmorphism Content Area */
+        .student-main-content {
+            flex: 1;
+            padding: 35px;
+            min-height: 600px;
+        }
+
+        @media (max-width: 992px) {
+            .student-wrapper { flex-direction: column; }
+            .student-sidebar { width: 100%; position: static; }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <asp:ContentPlaceHolder ID="StudentHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPage" runat="Server">
+    <div class="container my-5">
+        <div class="student-wrapper">
+            
+            <!-- Modern Sidebar -->
+            <div class="student-sidebar">
+                <div class="sidebar-title">Menu</div>
+                <nav>
+                    <a runat="server" href="~/Client/StudentHome.aspx" class="nav-link-student">
+                        <i data-lucide="layout-dashboard"></i> Dashboard
+                    </a>
+                    <a runat="server" href="~/Client/MyLibraryBorrows.aspx" class="nav-link-student">
+                        <i data-lucide="library"></i> My Library Borrows
+                    </a>
+                    <a runat="server" href="~/Client/SwaprequestList.aspx" class="nav-link-student">
+                        <i data-lucide="repeat"></i> Swap Requests
+                    </a>
+                     <a runat="server" href="~/Client/SwapRequest.aspx" class="nav-link-student">
+                        <i data-lucide="plus-circle"></i> New Swap
+                    </a>
+                    <a runat="server" href="~/Client/SwapBook.aspx" class="nav-link-student">
+                        <i data-lucide="search"></i> Browse Library
+                    </a>
+                    <a runat="server" href="~/Client/MyChats.aspx" class="nav-link-student">
+                        <i data-lucide="message-square"></i> My Chats
+                    </a>
+
+                    <div class="sidebar-title mt-4">Settings</div>
+                    <a runat="server" href="~/Client/Profile.aspx" class="nav-link-student">
+                        <i data-lucide="user-circle"></i> My Profile
+                    </a>
+                    <a runat="server" href="~/Client/login.aspx" class="nav-link-student text-danger">
+                        <i data-lucide="log-out"></i> Logout
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Content Area -->
+            <div class="student-main-content">
+                <asp:ContentPlaceHolder ID="StudentContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="Contentjavascript" runat="Server">
+</asp:Content>

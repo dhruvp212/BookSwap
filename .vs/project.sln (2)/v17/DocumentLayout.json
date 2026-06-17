@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\MyLibraryBorrows.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Client\\MyLibraryBorrows.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DEEPP_DOWNLOADS_BOOKSWAP__1__PROJECT__2__PROJECT_APP_DATA_BOOKSWAP.MDF/True/SqlTable/dbo.UserTBL.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\productdetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\productdetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\productdetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\productdetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\swapbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\swapbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\browse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\browse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\admin\\categorylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:admin\\categorylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\studentreg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\studentreg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\studentreg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\studentreg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\cilent.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\cilent.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|c:\\users\\deepp\\downloads\\bookswap (1)\\project (2)\\project\\client\\student.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\student.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyLibraryBorrows.aspx",
+              "DocumentMoniker": "c:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\MyLibraryBorrows.aspx",
+              "RelativeDocumentMoniker": "Client\\MyLibraryBorrows.aspx",
+              "ToolTip": "c:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\MyLibraryBorrows.aspx",
+              "RelativeToolTip": "Client\\MyLibraryBorrows.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T18:31:13.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetail.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\ProductDetail.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\ProductDetail.aspx.cs",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\ProductDetail.aspx.cs",
+              "RelativeToolTip": "Client\\ProductDetail.aspx.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswIMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:49:48.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDetail.aspx",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\ProductDetail.aspx",
+              "RelativeDocumentMoniker": "Client\\ProductDetail.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\ProductDetail.aspx",
+              "RelativeToolTip": "Client\\ProductDetail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T17:48:54.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SwapBook.aspx",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\SwapBook.aspx",
+              "RelativeDocumentMoniker": "Client\\SwapBook.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\SwapBook.aspx",
+              "RelativeToolTip": "Client\\SwapBook.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-25T12:30:05.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "browse.aspx",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\browse.aspx",
+              "RelativeDocumentMoniker": "Client\\browse.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\browse.aspx",
+              "RelativeToolTip": "Client\\browse.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T17:48:02.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.UserTBL [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DEEPP_DOWNLOADS_BOOKSWAP__1__PROJECT__2__PROJECT_APP_DATA_BOOKSWAP.MDF/True/SqlTable/dbo.UserTBL.sql",
+              "ToolTip": "dbo.UserTBL [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-25T11:11:54.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-25T10:44:56.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cilent.master",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\cilent.master",
+              "RelativeDocumentMoniker": "Client\\cilent.master",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\cilent.master",
+              "RelativeToolTip": "Client\\cilent.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-25T10:38:47.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\login.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\login.aspx.cs",
+              "RelativeToolTip": "Client\\login.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T10:36:29.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.master",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\Student.master",
+              "RelativeDocumentMoniker": "Client\\Student.master",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\Student.master",
+              "RelativeToolTip": "Client\\Student.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-25T10:35:41.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "registerpage.aspx",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\registerpage.aspx",
+              "RelativeDocumentMoniker": "Client\\registerpage.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\registerpage.aspx",
+              "RelativeToolTip": "Client\\registerpage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-25T10:34:29.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\login.aspx",
+              "RelativeDocumentMoniker": "Client\\login.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\login.aspx*",
+              "RelativeToolTip": "Client\\login.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-25T10:34:17.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "registerpage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\registerpage.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\registerpage.aspx.cs",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\registerpage.aspx.cs",
+              "RelativeToolTip": "Client\\registerpage.aspx.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAswLwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:14:57.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Admin\\CategoryList.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\CategoryList.aspx.cs",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Admin\\CategoryList.aspx.cs",
+              "RelativeToolTip": "Admin\\CategoryList.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T10:45:47.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentReg.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\StudentReg.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\StudentReg.aspx.cs",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\StudentReg.aspx.cs",
+              "RelativeToolTip": "Client\\StudentReg.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T10:33:57.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentReg.aspx",
+              "DocumentMoniker": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\StudentReg.aspx",
+              "RelativeDocumentMoniker": "Client\\StudentReg.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\StudentReg.aspx",
+              "RelativeToolTip": "Client\\StudentReg.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-25T10:33:56.044Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

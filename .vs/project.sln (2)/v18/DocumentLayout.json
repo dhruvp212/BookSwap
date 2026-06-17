@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET C#\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|D:\\.NET C#\\project|d:\\.net c#\\project\\client\\mylibraryborrows.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|D:\\.NET C#\\project|solutionrelative:client\\mylibraryborrows.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DEEPP_DOWNLOADS_BOOKSWAP__1__PROJECT__2__PROJECT_APP_DATA_BOOKSWAP.MDF/True/SqlTable/dbo.UserTBL.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\productdetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\productdetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\productdetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\productdetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\swapbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\swapbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\browse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\browse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\admin\\categorylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:admin\\categorylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\studentreg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\studentreg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\studentreg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\studentreg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\cilent.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\cilent.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|D:\\.NET C#\\project\\client\\student.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F18AE4D-8413-C7B3-6135-E28BDE2E83DF}|C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project|solutionrelative:client\\student.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyLibraryBorrows.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\MyLibraryBorrows.aspx",
+              "RelativeDocumentMoniker": "Client\\MyLibraryBorrows.aspx",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\MyLibraryBorrows.aspx",
+              "RelativeToolTip": "Client\\MyLibraryBorrows.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-17T10:33:29.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetail.aspx.cs",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\ProductDetail.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\ProductDetail.aspx.cs",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\ProductDetail.aspx.cs",
+              "RelativeToolTip": "Client\\ProductDetail.aspx.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswIMAAAAeAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ4SURBVDhP5ZRPSNNhGMc/789Nt/1czZmWm0XOWB6UIt0ubu2axEgqBLt06FiX7BJR/jl28ZBd8hZIgUgnCTEIhuFhZUXlIcMIypH/NnW/bb82t7eD\u002BWeLbEW3PqeX7/s8Hx54H16RTCYluzNqsViCheGvEIlEIiiEuAl4Py1qPAp/Zmp2CbdjL23HHXiP7JsHwoWNUspYJpO5arPZojtzA9AspbQJITCXGqixmZlf\u002B8bswhwJfR1gf5NTDY6NjZFKpaioqMDlcuF2uzWj0bio6/qgyWSa2RIKIXqmPi6zsKYDYDQI7Gop7yOrjL78QlZK8Bxg5sMsb9\u002B8xmQy4fF4MJvN5U6n8xqQ1HV9aFMqksmkPN8f4vGrue25d\u002BC0W2j3HOTGmUYG\u002Bm8Tfh7Gbrfj9Xrp6OigsrISRVH6VFXtBVAKBcWwsrLC5OQkw8PDzM3lD6IAXG9vZKQrwEhXgPuXWzl9opZKaxmHq8oJNtdy8aQLk0Eg5cZC5HI5NE0jHA4Tjea9CQYpZV9znb1TCOGeX9V5\u002Bu4rsUQap92Cv6Gac95DNNRYyeUkPr8fV309AHoqxfiTcdLp9E/CF4qitAGk0utEYkmq95ThO1rFqWMOWuoqyOU2JvP7/FuNsViMiWcT26YfKIqiDAIHpZSa01bGJZ\u002BDoSutdJ9typMViyKlbJFStgD3pqen6b7VzfJSlPX17B/LABRVVSOqqkYALZPJEFuJkc1mC\u002BuK5q/WZjf\u002BQ6GhMNA0jYG7dzAaSwuv8shk0sTj8cIYsXlIJBK9kUikJxQK5Vf8hkAggMPh2PoctoTxePxCSUlJZ151kWSz2YdWq/VBYf5P\u002BA7Hd/ajnWSf4gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDetail.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\ProductDetail.aspx",
+              "RelativeDocumentMoniker": "Client\\ProductDetail.aspx",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\ProductDetail.aspx",
+              "RelativeToolTip": "Client\\ProductDetail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANkSURBVDhPpZRNTFxVGIafc\u002B4Pd2YYGBijQAsikImESSMxdoGRsKGmBl3415CQuHNh4lZXBhp3Loxx6cK4MEpidENaFzRaGcfWlOJfR5OhaS20/JSMM9O5d\u002B69c4d7XLQMMCkL45OcxTnvlyffycl3BE3Ytt0tpVwGepqzo1BKnY3FYnMAojncE87Pz/fk8/nmuIGUkmQyyeTkJH19fXnTND\u002BPRqPv682Fe\u002BTzeapOlZF0ujliY2ODbPZH4vE4QgjGx8dTqVRqxnEc7UghwEg6zZnXzzQfs3x1mUxmiXK5TDabBcA0zdTQ0NCsbC7\u002BrxSLRTKZDIuLiwD8byFApVKhUCjAwUepVqvTwLRSygKey2azVqI9wfDwMEopwlA1BKVyieurq419JpPB8z1mZ2fR9mTVunrzll1/fvGON3h\u002B3dV/qbbwZxAjV4EdT9HRIjGlQAqwLIuenmONtba\u002BRrFYZGJiAs227Sl/V737V6n\u002B7HcbHkubHp\u002Bt2njC4I8yXNrx0aTA2YXOFklMvy89SC6XawillHJh2wtPfvO3w7m1KicSBoYUvJOO82p/hHZDMhDT\u002BDhXYelujVJ9/\u002BoPQwIs3HLx64qZgShTvS1Y2n4L3VHJa/0R3hiM8luhxpWdANnc4gF0gF8LPj9t\u002B1y6K/jyhqRUC/ngWoV7gaJcC3nrcpFNN6RUC3kiriOEBTy8U1muhex4IcdjGqd6LEY6DAwJA606XRGNdkPydNJk6riFpQmcukKIozuUfqgIUXRFJKOdBumEjiEEA3GdroikzRSMdhqMdhq0G0eL9tAftTRadcn52y4XNnwMCeUg5JO8Qz1UBAre/rmEtwuBUpzqrmPbNq7rNSSe6\u002B4LAUY6TBKG4OQjBic6DF75vsDZ0TZyxTrXSgEfPtPOudsev5fquHeu82n2MisrKw2J67qkH3wiOsDp3ghf3wy5uFVDCEEQQocpaTUE5SDk6j8BFzZ9XuiLMjY4RNtIkrGxsYYQIJFIACAcx5mrBGo6u\u002B2nMlseJX\u002BXr25WOX3MYssLWXd2meqN0KILXu6P8WTCuBjR\u002BOGQ7QCC\u002B6P3XqUWzuTv1VPfrrvkijVqD2Y3YUqeSpq8\u002BHiUxyx5xRTqo3g8/kWzaI/GszmOMyeEmD0cH0Yp9VIsFltoPj/IvzzJady95/qDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-17T10:33:29.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SwapBook.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\SwapBook.aspx",
+              "RelativeDocumentMoniker": "Client\\SwapBook.aspx",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\SwapBook.aspx",
+              "RelativeToolTip": "Client\\SwapBook.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANkSURBVDhPpZRNTFxVGIafc\u002B4Pd2YYGBijQAsikImESSMxdoGRsKGmBl3415CQuHNh4lZXBhp3Loxx6cK4MEpidENaFzRaGcfWlOJfR5OhaS20/JSMM9O5d\u002B69c4d7XLQMMCkL45OcxTnvlyffycl3BE3Ytt0tpVwGepqzo1BKnY3FYnMAojncE87Pz/fk8/nmuIGUkmQyyeTkJH19fXnTND\u002BPRqPv682Fe\u002BTzeapOlZF0ujliY2ODbPZH4vE4QgjGx8dTqVRqxnEc7UghwEg6zZnXzzQfs3x1mUxmiXK5TDabBcA0zdTQ0NCsbC7\u002BrxSLRTKZDIuLiwD8byFApVKhUCjAwUepVqvTwLRSygKey2azVqI9wfDwMEopwlA1BKVyieurq419JpPB8z1mZ2fR9mTVunrzll1/fvGON3h\u002B3dV/qbbwZxAjV4EdT9HRIjGlQAqwLIuenmONtba\u002BRrFYZGJiAs227Sl/V737V6n\u002B7HcbHkubHp\u002Bt2njC4I8yXNrx0aTA2YXOFklMvy89SC6XawillHJh2wtPfvO3w7m1KicSBoYUvJOO82p/hHZDMhDT\u002BDhXYelujVJ9/\u002BoPQwIs3HLx64qZgShTvS1Y2n4L3VHJa/0R3hiM8luhxpWdANnc4gF0gF8LPj9t\u002B1y6K/jyhqRUC/ngWoV7gaJcC3nrcpFNN6RUC3kiriOEBTy8U1muhex4IcdjGqd6LEY6DAwJA606XRGNdkPydNJk6riFpQmcukKIozuUfqgIUXRFJKOdBumEjiEEA3GdroikzRSMdhqMdhq0G0eL9tAftTRadcn52y4XNnwMCeUg5JO8Qz1UBAre/rmEtwuBUpzqrmPbNq7rNSSe6\u002B4LAUY6TBKG4OQjBic6DF75vsDZ0TZyxTrXSgEfPtPOudsev5fquHeu82n2MisrKw2J67qkH3wiOsDp3ghf3wy5uFVDCEEQQocpaTUE5SDk6j8BFzZ9XuiLMjY4RNtIkrGxsYYQIJFIACAcx5mrBGo6u\u002B2nMlseJX\u002BXr25WOX3MYssLWXd2meqN0KILXu6P8WTCuBjR\u002BOGQ7QCC\u002B6P3XqUWzuTv1VPfrrvkijVqD2Y3YUqeSpq8\u002BHiUxyx5xRTqo3g8/kWzaI/GszmOMyeEmD0cH0Yp9VIsFltoPj/IvzzJady95/qDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-17T10:33:29.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "browse.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\browse.aspx",
+              "RelativeDocumentMoniker": "Client\\browse.aspx",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\browse.aspx",
+              "RelativeToolTip": "Client\\browse.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANkSURBVDhPpZRNTFxVGIafc\u002B4Pd2YYGBijQAsikImESSMxdoGRsKGmBl3415CQuHNh4lZXBhp3Loxx6cK4MEpidENaFzRaGcfWlOJfR5OhaS20/JSMM9O5d\u002B69c4d7XLQMMCkL45OcxTnvlyffycl3BE3Ytt0tpVwGepqzo1BKnY3FYnMAojncE87Pz/fk8/nmuIGUkmQyyeTkJH19fXnTND\u002BPRqPv682Fe\u002BTzeapOlZF0ujliY2ODbPZH4vE4QgjGx8dTqVRqxnEc7UghwEg6zZnXzzQfs3x1mUxmiXK5TDabBcA0zdTQ0NCsbC7\u002BrxSLRTKZDIuLiwD8byFApVKhUCjAwUepVqvTwLRSygKey2azVqI9wfDwMEopwlA1BKVyieurq419JpPB8z1mZ2fR9mTVunrzll1/fvGON3h\u002B3dV/qbbwZxAjV4EdT9HRIjGlQAqwLIuenmONtba\u002BRrFYZGJiAs227Sl/V737V6n\u002B7HcbHkubHp\u002Bt2njC4I8yXNrx0aTA2YXOFklMvy89SC6XawillHJh2wtPfvO3w7m1KicSBoYUvJOO82p/hHZDMhDT\u002BDhXYelujVJ9/\u002BoPQwIs3HLx64qZgShTvS1Y2n4L3VHJa/0R3hiM8luhxpWdANnc4gF0gF8LPj9t\u002B1y6K/jyhqRUC/ngWoV7gaJcC3nrcpFNN6RUC3kiriOEBTy8U1muhex4IcdjGqd6LEY6DAwJA606XRGNdkPydNJk6riFpQmcukKIozuUfqgIUXRFJKOdBumEjiEEA3GdroikzRSMdhqMdhq0G0eL9tAftTRadcn52y4XNnwMCeUg5JO8Qz1UBAre/rmEtwuBUpzqrmPbNq7rNSSe6\u002B4LAUY6TBKG4OQjBic6DF75vsDZ0TZyxTrXSgEfPtPOudsev5fquHeu82n2MisrKw2J67qkH3wiOsDp3ghf3wy5uFVDCEEQQocpaTUE5SDk6j8BFzZ9XuiLMjY4RNtIkrGxsYYQIJFIACAcx5mrBGo6u\u002B2nMlseJX\u002BXr25WOX3MYssLWXd2meqN0KILXu6P8WTCuBjR\u002BOGQ7QCC\u002B6P3XqUWzuTv1VPfrrvkijVqD2Y3YUqeSpq8\u002BHiUxyx5xRTqo3g8/kWzaI/GszmOMyeEmD0cH0Yp9VIsFltoPj/IvzzJady95/qDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-17T10:33:29.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.UserTBL.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DEEPP_DOWNLOADS_BOOKSWAP__1__PROJECT__2__PROJECT_APP_DATA_BOOKSWAP.MDF/True/SqlTable/dbo.UserTBL.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DEEPP_DOWNLOADS_BOOKSWAP__1__PROJECT__2__PROJECT_APP_DATA_BOOKSWAP.MDF/True/SqlTable/dbo.UserTBL.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-25T11:11:54.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\.NET C#\\project\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKHSURBVDhPlZS/SxthHMY/98aIRiFnHIxNllS5QA0EzEVFDXV0qGtduro5pPQPqKV/QPpHdHBuu3QRbaQOWhD05JIOLiI01TPDXWJymLdDzfUSf1Q/8IXjed7nueP48ir4sG37hRDis197CFLKdwMDA2sAit/wF66vr1Mul/12B729vWQyGSYnJ4lEImVFUT6GQqH3Pd0H25TLZWpOjYlUqtvi9PSUnZ3vnJ2d4TgOuq5rsVjsleM4gTsLASZSKZZfLnfL7P3Yo1j8hmmaNBoNrq6umJ\u002Bf10ZGRt4K/v6DIdu2R4UQQ\u002B3Q4OAg/X19HUW3cXx8zMbGBtvb2wAIgMvLy4IQYk9K\u002BaF9cGVlhcXFRV/0bk5OTiiVSgAEarXap/Pz8\u002Be7u7ujpmn2j4\u002BPA7C5uYllWUSGhwn2BDsKQgMhJp5NkMvlyOVyyJak2WyysLCAAJZM0xwpFosYhuGFDMOgWCxydGSgiI5lQA2r6HrWmyexmOcJgIODA0zTxLZtz7BtG8Mw2N/fRwjh6f9DAFQqFarVKq7rYlkWlmXhui7VapVKpYKiKF0bezcdrzYMg3w\u002BTz6f5/Dw0OdI3/P9CIBkMkk8Hr/xhfF4HE3TaLXkgzsFgK7rTE1NEY1GPSMajZLNZslkdGTrgW3XhV/GxsZ\u002Bzc3NkU6nPSOdTjM7O8vTRAIpH1EYCoWWpJRfNU2zZ2ZmPGN6ehpNS9JoNLm4uLh3Lut1L9cD4Lru62Aw\u002BBt44zlAICAo/yxRKBT88g3q9Tqp60ukB0BVVctxnH9L6CORSLC6utot30BVVWgX3sNmOBzeymaz3fqtSCk7C8PhMO2wqqpIKbfaN/GjcRxnrVarSf84jvPosj8dRybRBg8uHQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cilent.master",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\cilent.master",
+              "RelativeDocumentMoniker": "Client\\cilent.master",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\cilent.master",
+              "RelativeToolTip": "Client\\cilent.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVDhPzZSxa8JAFMY/YxxMIjja3KCDXZyTrcHZrvXPaRvwD7Gou4UW3IOb6VLXalAwmW0I15Qo7VAazouhsVrobzq\u002B790H797jgBOTo5Q\u002B8OIx5CilH5ZlwXVd3jsIQgiazeZXYKfTwWQy4WsOQtd1mKYJgTeO5eSB4vfBuDBgGAaCIED3rotW6xLn9fpudQrj8RjhewiwgSoh0DQdYfgG3/ehaTpUVWXvpTJ3HDjOHGBb9jwPs9kL8nkRtVoNkizFWhRFmE6fsX5d79VY4kDbtjEajUApRa/fw3KxhP2UTWOJ16ZSOUP7qg1JkuD7PmRZxmazwXa7/VEb3g/hOPPdtSkWi1AUBZRSDAZ9LJaLWBMEAeVyGYVCYa/GklgbUcyjWq1ClmTeykQikB3Kb0gEpj12VhKBpVIJN9e3aDQavJWJeMqr1QqqSng/E57nghAC0zT/5vt65M1/xSd8t8Tmer4iIQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\login.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\login.aspx.cs",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\login.aspx.cs",
+              "RelativeToolTip": "Client\\login.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDcAAAAdAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ4SURBVDhP5ZRPSNNhGMc/789Nt/1czZmWm0XOWB6UIt0ubu2axEgqBLt06FiX7BJR/jl28ZBd8hZIgUgnCTEIhuFhZUXlIcMIypH/NnW/bb82t7eD\u002BWeLbEW3PqeX7/s8Hx54H16RTCYluzNqsViCheGvEIlEIiiEuAl4Py1qPAp/Zmp2CbdjL23HHXiP7JsHwoWNUspYJpO5arPZojtzA9AspbQJITCXGqixmZlf\u002B8bswhwJfR1gf5NTDY6NjZFKpaioqMDlcuF2uzWj0bio6/qgyWSa2RIKIXqmPi6zsKYDYDQI7Gop7yOrjL78QlZK8Bxg5sMsb9\u002B8xmQy4fF4MJvN5U6n8xqQ1HV9aFMqksmkPN8f4vGrue25d\u002BC0W2j3HOTGmUYG\u002Bm8Tfh7Gbrfj9Xrp6OigsrISRVH6VFXtBVAKBcWwsrLC5OQkw8PDzM3lD6IAXG9vZKQrwEhXgPuXWzl9opZKaxmHq8oJNtdy8aQLk0Eg5cZC5HI5NE0jHA4Tjea9CQYpZV9znb1TCOGeX9V5\u002Bu4rsUQap92Cv6Gac95DNNRYyeUkPr8fV309AHoqxfiTcdLp9E/CF4qitAGk0utEYkmq95ThO1rFqWMOWuoqyOU2JvP7/FuNsViMiWcT26YfKIqiDAIHpZSa01bGJZ\u002BDoSutdJ9typMViyKlbJFStgD3pqen6b7VzfJSlPX17B/LABRVVSOqqkYALZPJEFuJkc1mC\u002BuK5q/WZjf\u002BQ6GhMNA0jYG7dzAaSwuv8shk0sTj8cIYsXlIJBK9kUikJxQK5Vf8hkAggMPh2PoctoTxePxCSUlJZ151kWSz2YdWq/VBYf5P\u002BA7Hd/ajnWSf4gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.master",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\Student.master",
+              "RelativeDocumentMoniker": "Client\\Student.master",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\Student.master",
+              "RelativeToolTip": "Client\\Student.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVDhPzZSxa8JAFMY/YxxMIjja3KCDXZyTrcHZrvXPaRvwD7Gou4UW3IOb6VLXalAwmW0I15Qo7VAazouhsVrobzq\u002B790H797jgBOTo5Q\u002B8OIx5CilH5ZlwXVd3jsIQgiazeZXYKfTwWQy4WsOQtd1mKYJgTeO5eSB4vfBuDBgGAaCIED3rotW6xLn9fpudQrj8RjhewiwgSoh0DQdYfgG3/ehaTpUVWXvpTJ3HDjOHGBb9jwPs9kL8nkRtVoNkizFWhRFmE6fsX5d79VY4kDbtjEajUApRa/fw3KxhP2UTWOJ16ZSOUP7qg1JkuD7PmRZxmazwXa7/VEb3g/hOPPdtSkWi1AUBZRSDAZ9LJaLWBMEAeVyGYVCYa/GklgbUcyjWq1ClmTeykQikB3Kb0gEpj12VhKBpVIJN9e3aDQavJWJeMqr1QqqSng/E57nghAC0zT/5vt65M1/xSd8t8Tmer4iIQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "registerpage.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\registerpage.aspx",
+              "RelativeDocumentMoniker": "Client\\registerpage.aspx",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\registerpage.aspx",
+              "RelativeToolTip": "Client\\registerpage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANkSURBVDhPpZRNTFxVGIafc\u002B4Pd2YYGBijQAsikImESSMxdoGRsKGmBl3415CQuHNh4lZXBhp3Loxx6cK4MEpidENaFzRaGcfWlOJfR5OhaS20/JSMM9O5d\u002B69c4d7XLQMMCkL45OcxTnvlyffycl3BE3Ytt0tpVwGepqzo1BKnY3FYnMAojncE87Pz/fk8/nmuIGUkmQyyeTkJH19fXnTND\u002BPRqPv682Fe\u002BTzeapOlZF0ujliY2ODbPZH4vE4QgjGx8dTqVRqxnEc7UghwEg6zZnXzzQfs3x1mUxmiXK5TDabBcA0zdTQ0NCsbC7\u002BrxSLRTKZDIuLiwD8byFApVKhUCjAwUepVqvTwLRSygKey2azVqI9wfDwMEopwlA1BKVyieurq419JpPB8z1mZ2fR9mTVunrzll1/fvGON3h\u002B3dV/qbbwZxAjV4EdT9HRIjGlQAqwLIuenmONtba\u002BRrFYZGJiAs227Sl/V737V6n\u002B7HcbHkubHp\u002Bt2njC4I8yXNrx0aTA2YXOFklMvy89SC6XawillHJh2wtPfvO3w7m1KicSBoYUvJOO82p/hHZDMhDT\u002BDhXYelujVJ9/\u002BoPQwIs3HLx64qZgShTvS1Y2n4L3VHJa/0R3hiM8luhxpWdANnc4gF0gF8LPj9t\u002B1y6K/jyhqRUC/ngWoV7gaJcC3nrcpFNN6RUC3kiriOEBTy8U1muhex4IcdjGqd6LEY6DAwJA606XRGNdkPydNJk6riFpQmcukKIozuUfqgIUXRFJKOdBumEjiEEA3GdroikzRSMdhqMdhq0G0eL9tAftTRadcn52y4XNnwMCeUg5JO8Qz1UBAre/rmEtwuBUpzqrmPbNq7rNSSe6\u002B4LAUY6TBKG4OQjBic6DF75vsDZ0TZyxTrXSgEfPtPOudsev5fquHeu82n2MisrKw2J67qkH3wiOsDp3ghf3wy5uFVDCEEQQocpaTUE5SDk6j8BFzZ9XuiLMjY4RNtIkrGxsYYQIJFIACAcx5mrBGo6u\u002B2nMlseJX\u002BXr25WOX3MYssLWXd2meqN0KILXu6P8WTCuBjR\u002BOGQ7QCC\u002B6P3XqUWzuTv1VPfrrvkijVqD2Y3YUqeSpq8\u002BHiUxyx5xRTqo3g8/kWzaI/GszmOMyeEmD0cH0Yp9VIsFltoPj/IvzzJady95/qDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\login.aspx",
+              "RelativeDocumentMoniker": "Client\\login.aspx",
+              "ToolTip": "C:\\Users\\deepp\\Downloads\\BookSwap (1)\\project (2)\\project\\Client\\login.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANkSURBVDhPpZRNTFxVGIafc\u002B4Pd2YYGBijQAsikImESSMxdoGRsKGmBl3415CQuHNh4lZXBhp3Loxx6cK4MEpidENaFzRaGcfWlOJfR5OhaS20/JSMM9O5d\u002B69c4d7XLQMMCkL45OcxTnvlyffycl3BE3Ytt0tpVwGepqzo1BKnY3FYnMAojncE87Pz/fk8/nmuIGUkmQyyeTkJH19fXnTND\u002BPRqPv682Fe\u002BTzeapOlZF0ujliY2ODbPZH4vE4QgjGx8dTqVRqxnEc7UghwEg6zZnXzzQfs3x1mUxmiXK5TDabBcA0zdTQ0NCsbC7\u002BrxSLRTKZDIuLiwD8byFApVKhUCjAwUepVqvTwLRSygKey2azVqI9wfDwMEopwlA1BKVyieurq419JpPB8z1mZ2fR9mTVunrzll1/fvGON3h\u002B3dV/qbbwZxAjV4EdT9HRIjGlQAqwLIuenmONtba\u002BRrFYZGJiAs227Sl/V737V6n\u002B7HcbHkubHp\u002Bt2njC4I8yXNrx0aTA2YXOFklMvy89SC6XawillHJh2wtPfvO3w7m1KicSBoYUvJOO82p/hHZDMhDT\u002BDhXYelujVJ9/\u002BoPQwIs3HLx64qZgShTvS1Y2n4L3VHJa/0R3hiM8luhxpWdANnc4gF0gF8LPj9t\u002B1y6K/jyhqRUC/ngWoV7gaJcC3nrcpFNN6RUC3kiriOEBTy8U1muhex4IcdjGqd6LEY6DAwJA606XRGNdkPydNJk6riFpQmcukKIozuUfqgIUXRFJKOdBumEjiEEA3GdroikzRSMdhqMdhq0G0eL9tAftTRadcn52y4XNnwMCeUg5JO8Qz1UBAre/rmEtwuBUpzqrmPbNq7rNSSe6\u002B4LAUY6TBKG4OQjBic6DF75vsDZ0TZyxTrXSgEfPtPOudsev5fquHeu82n2MisrKw2J67qkH3wiOsDp3ghf3wy5uFVDCEEQQocpaTUE5SDk6j8BFzZ9XuiLMjY4RNtIkrGxsYYQIJFIACAcx5mrBGo6u\u002B2nMlseJX\u002BXr25WOX3MYssLWXd2meqN0KILXu6P8WTCuBjR\u002BOGQ7QCC\u002B6P3XqUWzuTv1VPfrrvkijVqD2Y3YUqeSpq8\u002BHiUxyx5xRTqo3g8/kWzaI/GszmOMyeEmD0cH0Yp9VIsFltoPj/IvzzJady95/qDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "registerpage.aspx.cs",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\registerpage.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\registerpage.aspx.cs",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\registerpage.aspx.cs",
+              "RelativeToolTip": "Client\\registerpage.aspx.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAswLwAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ4SURBVDhP5ZRPSNNhGMc/789Nt/1czZmWm0XOWB6UIt0ubu2axEgqBLt06FiX7BJR/jl28ZBd8hZIgUgnCTEIhuFhZUXlIcMIypH/NnW/bb82t7eD\u002BWeLbEW3PqeX7/s8Hx54H16RTCYluzNqsViCheGvEIlEIiiEuAl4Py1qPAp/Zmp2CbdjL23HHXiP7JsHwoWNUspYJpO5arPZojtzA9AspbQJITCXGqixmZlf\u002B8bswhwJfR1gf5NTDY6NjZFKpaioqMDlcuF2uzWj0bio6/qgyWSa2RIKIXqmPi6zsKYDYDQI7Gop7yOrjL78QlZK8Bxg5sMsb9\u002B8xmQy4fF4MJvN5U6n8xqQ1HV9aFMqksmkPN8f4vGrue25d\u002BC0W2j3HOTGmUYG\u002Bm8Tfh7Gbrfj9Xrp6OigsrISRVH6VFXtBVAKBcWwsrLC5OQkw8PDzM3lD6IAXG9vZKQrwEhXgPuXWzl9opZKaxmHq8oJNtdy8aQLk0Eg5cZC5HI5NE0jHA4Tjea9CQYpZV9znb1TCOGeX9V5\u002Bu4rsUQap92Cv6Gac95DNNRYyeUkPr8fV309AHoqxfiTcdLp9E/CF4qitAGk0utEYkmq95ThO1rFqWMOWuoqyOU2JvP7/FuNsViMiWcT26YfKIqiDAIHpZSa01bGJZ\u002BDoSutdJ9typMViyKlbJFStgD3pqen6b7VzfJSlPX17B/LABRVVSOqqkYALZPJEFuJkc1mC\u002BuK5q/WZjf\u002BQ6GhMNA0jYG7dzAaSwuv8shk0sTj8cIYsXlIJBK9kUikJxQK5Vf8hkAggMPh2PoctoTxePxCSUlJZ151kWSz2YdWq/VBYf5P\u002BA7Hd/ajnWSf4gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryList.aspx.cs",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Admin\\CategoryList.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\CategoryList.aspx.cs",
+              "ToolTip": "D:\\.NET C#\\project\\Admin\\CategoryList.aspx.cs",
+              "RelativeToolTip": "Admin\\CategoryList.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ4SURBVDhP5ZRPSNNhGMc/789Nt/1czZmWm0XOWB6UIt0ubu2axEgqBLt06FiX7BJR/jl28ZBd8hZIgUgnCTEIhuFhZUXlIcMIypH/NnW/bb82t7eD\u002BWeLbEW3PqeX7/s8Hx54H16RTCYluzNqsViCheGvEIlEIiiEuAl4Py1qPAp/Zmp2CbdjL23HHXiP7JsHwoWNUspYJpO5arPZojtzA9AspbQJITCXGqixmZlf\u002B8bswhwJfR1gf5NTDY6NjZFKpaioqMDlcuF2uzWj0bio6/qgyWSa2RIKIXqmPi6zsKYDYDQI7Gop7yOrjL78QlZK8Bxg5sMsb9\u002B8xmQy4fF4MJvN5U6n8xqQ1HV9aFMqksmkPN8f4vGrue25d\u002BC0W2j3HOTGmUYG\u002Bm8Tfh7Gbrfj9Xrp6OigsrISRVH6VFXtBVAKBcWwsrLC5OQkw8PDzM3lD6IAXG9vZKQrwEhXgPuXWzl9opZKaxmHq8oJNtdy8aQLk0Eg5cZC5HI5NE0jHA4Tjea9CQYpZV9znb1TCOGeX9V5\u002Bu4rsUQap92Cv6Gac95DNNRYyeUkPr8fV309AHoqxfiTcdLp9E/CF4qitAGk0utEYkmq95ThO1rFqWMOWuoqyOU2JvP7/FuNsViMiWcT26YfKIqiDAIHpZSa01bGJZ\u002BDoSutdJ9typMViyKlbJFStgD3pqen6b7VzfJSlPX17B/LABRVVSOqqkYALZPJEFuJkc1mC\u002BuK5q/WZjf\u002BQ6GhMNA0jYG7dzAaSwuv8shk0sTj8cIYsXlIJBK9kUikJxQK5Vf8hkAggMPh2PoctoTxePxCSUlJZ151kWSz2YdWq/VBYf5P\u002BA7Hd/ajnWSf4gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentReg.aspx.cs",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\StudentReg.aspx.cs",
+              "RelativeDocumentMoniker": "Client\\StudentReg.aspx.cs",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\StudentReg.aspx.cs",
+              "RelativeToolTip": "Client\\StudentReg.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ4SURBVDhP5ZRPSNNhGMc/789Nt/1czZmWm0XOWB6UIt0ubu2axEgqBLt06FiX7BJR/jl28ZBd8hZIgUgnCTEIhuFhZUXlIcMIypH/NnW/bb82t7eD\u002BWeLbEW3PqeX7/s8Hx54H16RTCYluzNqsViCheGvEIlEIiiEuAl4Py1qPAp/Zmp2CbdjL23HHXiP7JsHwoWNUspYJpO5arPZojtzA9AspbQJITCXGqixmZlf\u002B8bswhwJfR1gf5NTDY6NjZFKpaioqMDlcuF2uzWj0bio6/qgyWSa2RIKIXqmPi6zsKYDYDQI7Gop7yOrjL78QlZK8Bxg5sMsb9\u002B8xmQy4fF4MJvN5U6n8xqQ1HV9aFMqksmkPN8f4vGrue25d\u002BC0W2j3HOTGmUYG\u002Bm8Tfh7Gbrfj9Xrp6OigsrISRVH6VFXtBVAKBcWwsrLC5OQkw8PDzM3lD6IAXG9vZKQrwEhXgPuXWzl9opZKaxmHq8oJNtdy8aQLk0Eg5cZC5HI5NE0jHA4Tjea9CQYpZV9znb1TCOGeX9V5\u002Bu4rsUQap92Cv6Gac95DNNRYyeUkPr8fV309AHoqxfiTcdLp9E/CF4qitAGk0utEYkmq95ThO1rFqWMOWuoqyOU2JvP7/FuNsViMiWcT26YfKIqiDAIHpZSa01bGJZ\u002BDoSutdJ9typMViyKlbJFStgD3pqen6b7VzfJSlPX17B/LABRVVSOqqkYALZPJEFuJkc1mC\u002BuK5q/WZjf\u002BQ6GhMNA0jYG7dzAaSwuv8shk0sTj8cIYsXlIJBK9kUikJxQK5Vf8hkAggMPh2PoctoTxePxCSUlJZ151kWSz2YdWq/VBYf5P\u002BA7Hd/ajnWSf4gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentReg.aspx",
+              "DocumentMoniker": "D:\\.NET C#\\project\\Client\\StudentReg.aspx",
+              "RelativeDocumentMoniker": "Client\\StudentReg.aspx",
+              "ToolTip": "D:\\.NET C#\\project\\Client\\StudentReg.aspx",
+              "RelativeToolTip": "Client\\StudentReg.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANkSURBVDhPpZRNTFxVGIafc\u002B4Pd2YYGBijQAsikImESSMxdoGRsKGmBl3415CQuHNh4lZXBhp3Loxx6cK4MEpidENaFzRaGcfWlOJfR5OhaS20/JSMM9O5d\u002B69c4d7XLQMMCkL45OcxTnvlyffycl3BE3Ytt0tpVwGepqzo1BKnY3FYnMAojncE87Pz/fk8/nmuIGUkmQyyeTkJH19fXnTND\u002BPRqPv682Fe\u002BTzeapOlZF0ujliY2ODbPZH4vE4QgjGx8dTqVRqxnEc7UghwEg6zZnXzzQfs3x1mUxmiXK5TDabBcA0zdTQ0NCsbC7\u002BrxSLRTKZDIuLiwD8byFApVKhUCjAwUepVqvTwLRSygKey2azVqI9wfDwMEopwlA1BKVyieurq419JpPB8z1mZ2fR9mTVunrzll1/fvGON3h\u002B3dV/qbbwZxAjV4EdT9HRIjGlQAqwLIuenmONtba\u002BRrFYZGJiAs227Sl/V737V6n\u002B7HcbHkubHp\u002Bt2njC4I8yXNrx0aTA2YXOFklMvy89SC6XawillHJh2wtPfvO3w7m1KicSBoYUvJOO82p/hHZDMhDT\u002BDhXYelujVJ9/\u002BoPQwIs3HLx64qZgShTvS1Y2n4L3VHJa/0R3hiM8luhxpWdANnc4gF0gF8LPj9t\u002B1y6K/jyhqRUC/ngWoV7gaJcC3nrcpFNN6RUC3kiriOEBTy8U1muhex4IcdjGqd6LEY6DAwJA606XRGNdkPydNJk6riFpQmcukKIozuUfqgIUXRFJKOdBumEjiEEA3GdroikzRSMdhqMdhq0G0eL9tAftTRadcn52y4XNnwMCeUg5JO8Qz1UBAre/rmEtwuBUpzqrmPbNq7rNSSe6\u002B4LAUY6TBKG4OQjBic6DF75vsDZ0TZyxTrXSgEfPtPOudsev5fquHeu82n2MisrKw2J67qkH3wiOsDp3ghf3wy5uFVDCEEQQocpaTUE5SDk6j8BFzZ9XuiLMjY4RNtIkrGxsYYQIJFIACAcx5mrBGo6u\u002B2nMlseJX\u002BXr25WOX3MYssLWXd2meqN0KILXu6P8WTCuBjR\u002BOGQ7QCC\u002B6P3XqUWzuTv1VPfrrvkijVqD2Y3YUqeSpq8\u002BHiUxyx5xRTqo3g8/kWzaI/GszmOMyeEmD0cH0Yp9VIsFltoPj/IvzzJady95/qDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-17T10:33:29.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

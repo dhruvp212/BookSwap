@@ -1,0 +1,230 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Client.master.cs" Inherits="Client_ClientMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BookSwap - Local Book Exchange &amp; Library Network</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="../Assets/css/ModernUI.css" rel="stylesheet" />
+    <style>
+        /* ── Fixed/sticky navbar ── */
+        body {
+            padding-top: 66px;
+            font-family: 'Outfit', sans-serif;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1030;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: .4px;
+        }
+        .navbar-nav .nav-link {
+            font-size: 14px;
+            font-weight: 500;
+            padding: 7px 12px !important;
+            border-radius: 6px;
+            transition: background .18s;
+        }
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active-page {
+            background: rgba(255,255,255,.15);
+            color: #fff !important;
+        }
+
+        /* ── Dropdown submenu ── */
+        .nav-item { position: relative; }
+        .submenu {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            min-width: 190px;
+            list-style: none;
+            padding: 6px 0;
+            margin: 0;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,.3);
+            display: none;
+            z-index: 9999;
+        }
+        .navbar-nav .nav-item:hover > .submenu {
+            display: block;
+        }
+        .submenu li a {
+            display: block;
+            padding: 9px 18px;
+            text-decoration: none;
+            color: #e0e0e0;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .submenu li a:hover {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+        }
+
+        /* ── Footer ── */
+        footer {
+            color: #adb5bd;
+            padding: 32px 0 20px;
+            margin-top: 70px;
+            font-size: 14px;
+        }
+        footer .brand { color: #fff; font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+        footer a { color: #6ea8fe; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Universal Background Shapes -->
+        <div class="bg-shapes-container">
+            <div class="bg-shape-1"></div>
+            <div class="bg-shape-2"></div>
+            <div class="bg-shape-3"></div>
+        </div>
+
+        <!-- ============ NAVBAR ============ -->
+        <nav class="navbar navbar-expand-lg glass-panel sticky-top mb-4">
+            <div class="container">
+                <!-- Brand -->
+                <a runat="server" class="navbar-brand fw-bold d-flex align-items-center gap-2" href="~/Client/Home.aspx">
+                    <i data-lucide="book-open" class="size-6 text-accent"></i> 
+                    <span class="animate-color">BookSwap</span>
+                </a>
+
+                <!-- Mobile toggler -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i data-lucide="menu" class="text-primary"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto" id="clientMenu" runat="server">
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/Home.aspx"><i data-lucide="home" class="size-4"></i> Home</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/Aboutpage.aspx"><i data-lucide="info" class="size-4"></i> About</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/contactpage.aspx"><i data-lucide="phone" class="size-4"></i> Contact</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/BookCategory.aspx"><i data-lucide="layers" class="size-4"></i> Category</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/SwapBook.aspx"><i data-lucide="book" class="size-4"></i> Library Books</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/ApprovedSwapList.aspx"><i data-lucide="check-circle" class="size-4"></i> Approved Swaps</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link d-flex align-items-center gap-2 hover-accent" href="~/Client/MyChats.aspx"><i data-lucide="message-circle" class="size-4"></i> My Chats</a></li>
+                    </ul>
+
+                    <!-- Before login -->
+                    <ul class="navbar-nav ms-2" id="BeforeLoginPanel" runat="server">
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link d-flex align-items-center gap-2" href="~/Client/login.aspx"><i data-lucide="log-in" class="size-4"></i> Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a runat="server" class="btn btn-outline-light btn-sm ms-1 d-flex align-items-center gap-2" href="~/Client/StudentReg.aspx"><i data-lucide="user-plus" class="size-4"></i> Register</a>
+                        </li>
+                    </ul>
+
+                    <!-- After login -->
+                    <ul class="navbar-nav ms-2" id="AfterLoginPanel" runat="server" visible="false">
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="javascript:void(0)">
+                                <i data-lucide="user" class="size-4"></i> <label id="lblUser" runat="server" style="font-weight:700;cursor:pointer;margin:0;"></label>
+                            </a>
+                            <ul class="submenu submenu-right">
+                                <% if (Session["Student"] != null) { %>
+                                <li><a runat="server" href="~/Client/StudentHome.aspx" class="d-flex align-items-center gap-2"><i data-lucide="layout-dashboard" class="size-4"></i> Student Dashboard</a></li>
+                                <% } else { %>
+                                <li><a runat="server" href="~/Client/Profile.aspx" class="d-flex align-items-center gap-2"><i data-lucide="user-circle" class="size-4"></i> My Profile</a></li>
+                                <li><a runat="server" href="~/Client/SwapRequest.aspx" class="d-flex align-items-center gap-2"><i data-lucide="repeat" class="size-4"></i> Swap Request</a></li>
+                                <li><a runat="server" href="~/Client/SwaprequestList.aspx" class="d-flex align-items-center gap-2"><i data-lucide="list" class="size-4"></i> My Requests</a></li>
+                                <% } %>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <asp:LinkButton runat="server" ID="btnLogout"
+                                CssClass="btn btn-danger btn-sm px-3 d-flex align-items-center gap-2"
+                                OnClick="btnLogout_Click1"><i data-lucide="log-out" class="size-4"></i> Logout</asp:LinkButton>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- ============ /NAVBAR ============ -->
+
+        <!-- Page Content -->
+        <div class="container my-5 fade-in">
+            <asp:ContentPlaceHolder ID="ContentPage" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <!-- ============ FOOTER ============ -->
+        <footer id="contact" class="glass-panel mt-5 py-5">
+            <div class="container">
+                <div class="row g-4 text-center text-md-start">
+                    <div class="col-md-4">
+                        <div class="brand mb-3 d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+                            <i data-lucide="book-open" class="size-6 text-primary"></i> 
+                            <span class="animate-color">BookSwap</span>
+                        </div>
+                        <p class="text-secondary small">Empowering communities through book exchange and library networks. Join us in making reading accessible to everyone.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h6 class="text-white fw-bold mb-3">Quick Links</h6>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><a href="Home.aspx" class="text-secondary text-decoration-none hover-accent">Home</a></li>
+                            <li class="mb-2"><a href="Aboutpage.aspx" class="text-secondary text-decoration-none hover-accent">About Us</a></li>
+                            <li class="mb-2"><a href="SwapBook.aspx" class="text-secondary text-decoration-none hover-accent">Browse Books</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="text-white fw-bold mb-3">Connect With Us</h6>
+                        <p class="text-secondary small d-flex align-items-center gap-2 justify-content-center justify-content-md-start">
+                            <i data-lucide="mail" class="size-4"></i> info@bookswap.com
+                        </p>
+                        <p class="text-secondary small d-flex align-items-center gap-2 justify-content-center justify-content-md-start">
+                            <i data-lucide="phone" class="size-4"></i> +91-9313199537
+                        </p>
+                        <p class="text-secondary small d-flex align-items-center gap-2 justify-content-center justify-content-md-start">
+                            <i data-lucide="map-pin" class="size-4"></i> Gujarat, India
+                        </p>
+                    </div>
+                </div>
+                <hr class="my-4 opacity-10">
+                <div class="text-center">
+                    <p class="mb-0 small text-secondary">&copy; 2025 BookSwap &ndash; Local Book Exchange &amp; Library Network</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ============ /FOOTER ============ -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>
+            lucide.createIcons();
+        </script>
+
+        <!-- Active nav-link highlighting -->
+        <script>
+            (function () {
+                var page = window.location.pathname.split('/').pop().toLowerCase();
+                document.querySelectorAll('#clientMenu .nav-link').forEach(function (a) {
+                    var href = (a.getAttribute('href') || '').toLowerCase();
+                    if (href === page || (page === '' && href === 'home.aspx')) {
+                        a.classList.add('active-page');
+                    }
+                });
+            })();
+        </script>
+
+        <asp:ContentPlaceHolder ID="Contentjavascript" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

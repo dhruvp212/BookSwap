@@ -1,0 +1,63 @@
+<%@ Master Language="C#" MasterPageFile="~/Client/Client.master" AutoEventWireup="true" CodeFile="Library.master.cs" Inherits="Library_LibraryMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="Server">
+    <style>
+        .library-sidebar { padding-bottom: 20px; }
+        .library-content { min-height: 500px; }
+    </style>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPage" runat="Server">
+    <div class="container-fluid my-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 mb-4">
+                <div class="library-sidebar glass-panel overflow-hidden">
+                    <div class="sidebar-header">
+                        <h5 class="m-0 d-flex align-items-center justify-content-center gap-2 text-white">
+                            <i data-lucide="library" class="size-5"></i> Library Panel
+                        </h5>
+                    </div>
+                    <ul class="nav flex-column sidebar-nav">
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link d-flex align-items-center gap-3" href="~/Library/LibraryHome.aspx">
+                                <i data-lucide="layout-dashboard" class="size-4"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link d-flex align-items-center gap-3" href="~/Library/ManageBookCenter.aspx">
+                                <i data-lucide="book-open" class="size-4"></i> Manage Book Center
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link d-flex align-items-center gap-3" href="~/Library/ManageAssignBook.aspx">
+                                <i data-lucide="user-check" class="size-4"></i> Manage Assign Book
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link d-flex align-items-center gap-3" href="~/Library/ReturnBook.aspx">
+                                <i data-lucide="rotate-ccw" class="size-4"></i> Return Book
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a runat="server" class="nav-link d-flex align-items-center gap-3" href="~/Library/Report.aspx">
+                                <i data-lucide="file-text" class="size-4"></i> Report
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="col-md-9">
+                <div class="library-content glass-panel p-4 shadow-sm">
+                    <asp:ContentPlaceHolder ID="LibraryContent" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="Contentjavascript" runat="Server">
+    <asp:ContentPlaceHolder ID="LibraryScripts" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
